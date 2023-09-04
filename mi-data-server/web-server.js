@@ -36,7 +36,7 @@ io.on('connection', (socket) => {
     });
 });
 
-app.get('/api/ubicaciones', async (req, res) => {s
+app.get('/api/ubicaciones', async (req, res) => {
     try {
         const connection = await connectToDB();
         const [rows, fields] = await connection.execute('SELECT * FROM ubicaciones');
