@@ -50,7 +50,7 @@ app.get('/api/ubicaciones', async (req, res) => {s
     }
 });
 
-const webServerPort = 3306;
+const webServerPort = 3000;
 httpServer.listen(webServerPort, () => {
     console.log(`Servidor web iniciado en http://localhost:${webServerPort}`);
 });
