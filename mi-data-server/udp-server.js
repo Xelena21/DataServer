@@ -56,4 +56,4 @@ server.on('message', (message, remoteInfo) => {
 });
 
 // Enlazar el servidor al puerto 3001
-server.bind(3306);
+server.bind(3000);
