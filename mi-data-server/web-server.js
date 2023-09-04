@@ -4,10 +4,10 @@ const socketIo = require('socket.io');
 const mysql = require('mysql2/promise');
 
 const connectionOptions = {
-    host: 'localhost',
-    user: 'Matt',
-    password: '14241543',
-    database: 'gps_data'
+    host: 'database-1.c3u4cniuznve.us-east-2.rds.amazonaws.com', // Dirección del servidor MySQL
+    user: 'xmaiguel',      // Usuario de la base de datos
+    password: 'xelena20012001', // Contraseña del usuario
+    database: 'database-1'  // Nombre de la base de datos
 };
 
 const app = express();
